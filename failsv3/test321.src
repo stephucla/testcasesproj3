@@ -1,0 +1,7 @@
+func main void
+    var object o1 o2 o3
+    assign o1 o2
+    assign o2 o3
+    assign o2.value 10
+    funccall print o1.value #?
+endfunc

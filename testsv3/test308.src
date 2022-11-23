@@ -1,0 +1,15 @@
+func foo x:int int
+    return + x 1
+endfunc
+
+func bar func
+    return foo
+endfunc
+
+func main void
+    var func f
+    funccall bar
+    assign f resultf
+    funccall f 10
+    funccall print resulti  # prints 11
+endfunc

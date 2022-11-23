@@ -1,0 +1,6 @@
+func main void
+    lambda int
+    endlambda
+    funccall resultf 
+    funccall print resulti # does it print 0?
+endfunc

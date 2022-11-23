@@ -1,0 +1,17 @@
+func main void
+    var int capture_me
+    assign capture_me 10
+    lambda a:refint void
+        assign capture_me + capture_me 10
+        assign a + a 1
+        funccall print capture_me #prints 20
+    endlambda
+
+    var func f
+    assign f resultf 
+    var int x
+    assign x 5
+    funccall f x
+    funccall print capture_me #prints 10
+    funccall print x #prints 5 or 6??
+endfunc

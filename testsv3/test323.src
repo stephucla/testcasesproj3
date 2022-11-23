@@ -1,0 +1,12 @@
+func gen n:int func
+  lambda void
+    funccall print n  # what does it print?
+  endlambda
+  return resultf
+endfunc
+func main void
+  funccall gen 123
+  var int n
+  assign n 456
+  funccall resultf
+endfunc

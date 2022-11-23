@@ -1,0 +1,4 @@
+func main void
+    var object x
+    assign x.val 42
+    funccall x.val 52

@@ -1,0 +1,14 @@
+func f i:int void
+  var int a
+  assign a + i 10
+  funccall print a
+endfunc
+func main void
+  var object x
+  assign x.some_method f
+  funccall x.some_method 52
+  var func my_func
+  assign my_func f
+  assign x.second_method my_func
+  funccall x.second_method 43
+endfunc

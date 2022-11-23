@@ -1,0 +1,5 @@
+func main void
+  var object x
+  var func y
+  funccall x.y 
+endfunc

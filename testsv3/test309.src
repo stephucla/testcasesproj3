@@ -1,0 +1,12 @@
+func bar object
+  var object x
+  assign x.a 10
+  assign x.b True
+  return x
+endfunc
+func main void
+  var object q
+  funccall bar
+  assign q resulto
+  funccall print q.b
+endfunc

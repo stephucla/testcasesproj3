@@ -1,0 +1,7 @@
+func main void
+ var object o p
+ assign o.num 10
+ assign p.num o.num
+ assign o.num 50
+ funccall print p.num # should print 50 
+endfunc

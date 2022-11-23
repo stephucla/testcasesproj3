@@ -1,0 +1,12 @@
+func main void
+    lambda a:int int
+       return + a 1
+    endlambda
+
+    lambda b:int int
+        return + b 2
+    endlambda
+
+    funccall resultf 10 # resulti is 12
+    funccall print resulti
+endfunc

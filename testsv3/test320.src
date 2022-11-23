@@ -1,0 +1,11 @@
+func main void
+    var int capture_me
+    assign capture_me 10
+    lambda capture_me:int void
+        funccall print capture_me
+    endlambda
+
+    var func f
+    assign f resultf 
+    funccall f 20 #prints 10 or 20?
+endfunc
